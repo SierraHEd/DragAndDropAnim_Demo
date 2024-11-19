@@ -19,8 +19,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             DragAndDropAnim_DemoTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                   Greeting("Android", Modifier.padding(innerPadding))
+                Scaffold(modifier = Modifier.fillMaxSize()) {
+                    DragAndDropBoxes()
 
                 }
             }
