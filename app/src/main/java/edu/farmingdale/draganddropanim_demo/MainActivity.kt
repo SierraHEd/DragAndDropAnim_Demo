@@ -1,5 +1,6 @@
 package edu.farmingdale.draganddropanim_demo
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -34,7 +35,8 @@ class MainActivity : ComponentActivity() {
 // ToDo 1: Analyze the requirements for Individual Project 3
 // ToDo 2: Show the DragAndDropBoxes composable
 // ToDo 3: Change the circle to a rect
-// ToDo 4: Replace the command right with a image or icon
+// ToDo 3.1: Change rect to an Icon
+// ToDo 4: Replace the command right with a icon
 // ToDo 5: Make this works in landscape mode only
 // ToDo 6: Rotate the rect around itself
 // ToDo 7: Move - translate the rect horizontally and vertically
