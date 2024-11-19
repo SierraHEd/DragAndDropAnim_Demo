@@ -121,7 +121,7 @@ fun DragAndDropBoxes(modifier: Modifier = Modifier) {
                 .background(Color.Red)
 
         ) {
-
+                drawRect(color = Color.Green, size = Size(100f, 150f), topLeft = Offset(100f, 100f))
        }
     }
 }
